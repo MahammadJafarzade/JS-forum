@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-boxs;
+          box-sizing: border-boxs;
+}
+
+.head {
+  background-color: #0bee22;
+  height: 10vh;
+  width: 100%;
+  font-size: 800;
+}
+
+label {
+  display: block;
+}
+
+label::after {
+  content: "*";
+  color: red;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+}
+
+#fullname {
+  margin-top: 10px;
+}
+
+#email {
+  margin-top: 20px;
+}
+
+#age {
+  margin-top: 10px;
+}
+
+#btn {
+  background-color: green;
+  margin-left: 60px;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+#btn a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
